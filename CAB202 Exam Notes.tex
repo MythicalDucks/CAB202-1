@@ -496,11 +496,11 @@ example adds two bytes.
 
 ; First number
 |\keyword{ldi}| r17, 29
-|\keyword{add}| r16, 17 ; R16 <- R16 + R17 = 0 + 29 = 29
+|\keyword{add}| r16, r17 ; R16 <- R16 + R17 = 0 + 29 = 29
 
 ; Second number
 |\keyword{ldi}| r17, 118
-|\keyword{add}| r16, 17 ; R16 <- R16 + R17 = 29 + 118 = 147
+|\keyword{add}| r16, r17 ; R16 <- R16 + R17 = 29 + 118 = 147
 \end{minted}
 Below is a graphical illustration of the above code.
 \begin{figure}[H]
